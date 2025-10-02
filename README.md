@@ -1,13 +1,13 @@
-﻿# Store Management System
+﻿# Система управления магазином
 
-## Introduction
+## Вступление
 
-Welcome to the Store Management System repository! This application is designed to help manage the various aspects of a store, including inventory, sales, and customer information. Built with C#, WPF (Windows Presentation Foundation), and Entity Framework Core, this system provides a user-friendly interface for efficient store management.
+Добро пожаловать в хранилище системы управления магазином! Это приложение предназначено для управления различными аспектами работы магазина, включая инвентаризацию, продажи и информацию о клиентах. Созданная на основе C#, WPF (Windows Presentation Foundation) и Entity Framework Core, эта система предоставляет удобный интерфейс для эффективного управления магазином.
 
-## Tech Stack
+## Технологийческий стек
 
--   C#: The primary programming language used for the application logic.
--   WPF (Windows Presentation Foundation): Used for creating the graphical user interface.
--   Entity Framework Core: Employed as the Object-Relational Mapping (ORM) tool for database interactions.
+-   C#: Основной язык программирования, используемый для логики приложения.
+-   WPF (Windows Presentation Foundation): Используется для создания графического интерфейса пользователя.
+-   Ядро Entity Framework: Используется в качестве инструмента объектно-реляционного отображения (ORM) для взаимодействия с базами данных.
 
 
