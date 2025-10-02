@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="StoreManagementSystemX.Views.SidebarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:views="clr-namespace:StoreManagementSystemX.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="1280"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+            TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+            TextElement.FontWeight="Regular"
+            TextElement.FontSize="14"
+            TextOptions.TextFormattingMode="Ideal"
+            TextOptions.TextRenderingMode="Auto"
+            Background="{DynamicResource MaterialDesignPaper}"
+            FontFamily="{DynamicResource MaterialDesignFont}"
+             >
+
+    <StackPanel>
+        <Button x:Name="DashboardButton" Content="Панель" Height="58" Click="Dashboard_Button_Click" Style="{DynamicResource MaterialDesignOutlinedButton}"/>
+        <Button x:Name="InventoryButton" Content="Реестр" Height="58" Click="Inventory_Button_Click" Style="{DynamicResource MaterialDesignOutlinedButton}"/>
+        <Button x:Name="TransactionsButton" Content="Транзакции" Height="58" Click="Transactions_Button_Click" Style="{DynamicResource MaterialDesignOutlinedButton}"/>
+        <Button x:Name="PayLaterTransactionsButton" Content="Оплата транзакций" Height="58" Click="Pay_Later_Transactions_Button_Click" Style="{DynamicResource MaterialDesignOutlinedButton}"/>
+        <Button x:Name="StockPurchasesButton" Content="Покупка акций" Height="58" Click="Stock_Purchases_Button_Click" Style="{DynamicResource MaterialDesignOutlinedButton}"/>
+        <Button x:Name="UsersButton" Content="Пользователи" Height="58" Click="Users_Button_Click" Style="{DynamicResource MaterialDesignOutlinedButton}"/>
+        <Button x:Name="LogoutButton" Content="Выход" Height="58" Click="Logout_Button_Click" Style="{DynamicResource MaterialDesignOutlinedButton}"/>
+    </StackPanel>
+
+</UserControl>
